@@ -1,6 +1,6 @@
 # ParkPartner
 #ParkPartner - Android Parking Solution
-#Overview: ParkPartner is designed to assist users in finding and managing parking spaces efficiently. This Android app could provide features like searching for nearby parking spots, reserving spaces, and managing parking #history.
+#Overview: ParkPartner is designed to assist users in finding and managing parking spaces efficiently. This Android app could provide features like searching for nearby parking spots, reserving spaces, and managing parking
 
 #Key Features:
 
