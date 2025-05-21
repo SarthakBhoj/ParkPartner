@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    android:padding="20dp"
+    tools:context=".MyProfileActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="20dp"
+      android:background="@drawable/main_linear_round"
+      >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/white"
+        android:id="@+id/nameId"
+        android:text="My Profile"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/man"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Username : "
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-light"
+        android:id="@+id/usernameId"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="E-mail : "
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-light"
+        android:id="@+id/emailId"
+        android:layout_marginTop="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Mob-No : "
+          android:textSize="25dp"
+          android:textColor="@color/white"
+          android:textStyle="bold"
+          android:fontFamily="sans-serif-condensed-light"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/mobId"
+          android:textSize="25dp"
+          android:textColor="#9E9EE8"
+          android:textStyle="bold"
+          android:fontFamily="sans-serif-condensed-light"
+          android:autoLink="phone"
+          />
+    </LinearLayout>
+
+id:onClick="btnBook"
+        />
+  </LinearLayout>
+  </LinearLayout>

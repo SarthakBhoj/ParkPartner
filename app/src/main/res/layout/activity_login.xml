@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#212121"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="WELCOME"
+           android:layout_gravity="center"
+           android:textAlignment="center"
+           android:textSize="70sp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-condensed-medium"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/main_linear_round"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/login_user_profile"
+/>
+        <EditText
+            android:id="@+id/etxtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_input"
+            android:fontFamily="monospace"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:textColorHint="#949494"
+            android:textSize="20dp"
+            android:padding="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_input"
+            android:fontFamily="monospace"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="#949494"
+            android:textSize="20dp"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radioGroup"
+            android:padding="10dp"
+            android:background="@drawable/background_input"
+
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Log in"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/userLogin"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alloter Log in"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/alloterLogin"
+                />
+
+
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="monospace"
+            android:onClick="btnLogIn"
+            android:text="SIGN IN"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="monospace"
+            android:onClick="btnRegister"
+            android:text="User signup"
+            android:textColor="#949494"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="monospace"
+            android:onClick="btnAloterRegister"
+            android:text="Alloter signup"
+            android:textColor="#949494"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

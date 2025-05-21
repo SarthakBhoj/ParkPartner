@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/layoutHistory"
+        android:background="@drawable/user_border">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/history"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Alloter Name : "
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/AlloterName"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Alloter Email : "
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/AlloterEmail"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Alloter Mobile No : "
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/AlloterMob"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Amount Paid : "
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/AmountPaid"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#212121"
+    tools:context=".AboutUsActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:background="@drawable/main_linear_round"
+                >
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overview : "
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:text="ParkPartner is a mobile application developed to assist drivers in locating and securing parking spaces in real-time. The app utilizes GPS technology and data from various sources to provide users with up-to-date information about parking availability, rates, and other relevant details. Whether you're looking for street parking, parking garages, or private lots, ParkPartner aims to simplify the process of finding parking spots, ultimately saving users time and reducing the frustration of searching for parking."
+            android:textSize="20dp"
+            android:justificationMode="inter_word"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Key Features : "
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:text="1.Real-timeParking Availability: ParkPartner uses live data from parking lots, and user inputs to display real-time parking availability. Users can view how many parking spaces are available in a specific area before they arrive, minimizing the chances of driving around aimlessly to find a spot.
+\n2.Search and Navigation: The app allows users to search for parking options in a particular location or around a destination. The integrated navigation feature provides step-by-step directions to the selected parking spot, making it easy to reach the destination hassle-free.
+\n3.Parking Rates and Details: ParkPartner provides information on parking rates, opening hours, and any restrictions that may apply to a specific parking area. Users can quickly compare prices and choose the most suitable option for their needs and budget.
+\n4.Parking Reservations: In some areas, ParkPartner may offer the option to reserve parking spaces in advance. This feature is especially useful for high-demand locations or during busy events when parking can be scarce."
+                    android:textSize="20dp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
